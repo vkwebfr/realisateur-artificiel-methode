@@ -1,0 +1,234 @@
+# Niche : Restaurant & Gastronomie
+
+Prompts et modèles prêts à l'emploi pour les vidéos de restaurants, chefs, plats signature et expériences gastronomiques.
+
+---
+
+## Contexte de la niche
+
+La gastronomie se vend par la sensation immédiate. Le spectateur doit presque sentir la chaleur du plat, entendre le couteau sur la planche, voir la vapeur monter, imaginer la texture en bouche.
+
+Une bonne vidéo de restaurant ne montre pas seulement une assiette. Elle montre un moment : la précision du chef, la matière des ingrédients, l'ambiance de la salle, le geste final avant le service, la première émotion face au plat.
+
+Les codes visuels qui fonctionnent : gros plans de textures, vapeur naturelle, mains du chef, feu, dressage précis, lumière chaude, bois, pierre, inox, céramique, profondeur de champ courte, ambiance vivante mais maîtrisée.
+
+Ce qui ne fonctionne pas : nappes à carreaux génériques, photos de stock, plats trop propres sans vie, éclairage blanc de cantine, ralentis gratuits, clients qui sourient trop face caméra, food porn excessif sans histoire.
+
+Marques et références à étudier : Gordon Ramsay pour l'énergie du geste, les gastro-documentaires Netflix pour la narration sensorielle, Chef's Table pour la lumière et la tension dramatique, les campagnes de restaurants étoilés pour le minimalisme et la précision.
+
+---
+
+## 5 briefs prêts à l'emploi
+
+### Brief 1 — Le plat signature
+
+Vidéo de 20s pour présenter le plat signature de [NOM DU RESTAURANT]. Ambiance : précision, chaleur, désir. Le plat est construit en 5 scènes : ingrédient brut, geste du chef, cuisson, dressage, service final. La caméra reste proche des mains et des textures. Palette : bois sombre, lumière chaude, céramique, vapeur. Référence : Chef's Table. Format : 9:16.
+
+### Brief 2 — Le chef en action
+
+Vidéo de 20s centrée sur le chef de [NOM DU RESTAURANT]. Ambiance : maîtrise, concentration, exigence. On voit les mains, le regard, le feu, le couteau, le dressage. Le visage peut apparaître, mais jamais en mode interview. Le chef est montré comme un artisan précis, pas comme une célébrité. Palette : inox, feu, noir, ambre. Format : 9:16.
+
+### Brief 3 — L'expérience du soir
+
+Vidéo de 25s pour vendre l'expérience dîner chez [NOM DU RESTAURANT]. Ambiance : intime, élégante, vivante. On suit le parcours du client sans montrer une personne précise : entrée du restaurant, lumière de table, verre servi, plat posé, détail du dessert, salle en fin de soirée. Palette : doré, bordeaux, bois, ombres douces. Référence : restaurant gastronomique parisien. Format : 9:16.
+
+### Brief 4 — Le menu de saison
+
+Vidéo de 20s pour annoncer le nouveau menu de saison de [NOM DU RESTAURANT]. Ambiance : fraîcheur, nature, découverte. Les ingrédients apparaissent d'abord bruts, puis transformés par le chef. Le montage doit montrer le passage de la terre à l'assiette. Palette : vert sauge, crème, terre cuite, lumière naturelle. Format : 9:16 ou 16:9.
+
+### Brief 5 — Le dessert comme spectacle
+
+Vidéo de 15s pour mettre en avant le dessert signature de [NOM DU RESTAURANT]. Ambiance : précision, douceur, surprise. On montre le nappage, la découpe, la texture intérieure, puis le dressage final. Le dessert doit sembler fragile, précieux, presque architectural. Palette : crème, chocolat, caramel, fruits rouges, or doux. Format : 9:16.
+
+---
+
+## Banque de prompts images
+
+10 prompts anglais pour les cadres les plus courants en restauration et gastronomie. Prêts à copier, à adapter avec le nom du restaurant, le plat et l'ambiance.
+
+### 01 — Ingrédient brut en gros plan
+
+```text
+Extreme close-up of [INGREDIENT: fresh herbs / aged beef / scallops / handmade pasta / seasonal vegetables] on [SURFACE: dark wood / stone / stainless steel], natural texture visible, tiny droplets of moisture, soft directional light from the left, shallow shadows, refined culinary atmosphere, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 02 — Mains du chef en préparation
+
+```text
+Chef hands preparing [DISH ELEMENT] on a professional kitchen counter, precise knife movement frozen mid-action, fresh ingredients arranged around the workspace, warm practical kitchen light, subtle steam in background, focused artisanal atmosphere, cinematic still, shot on Arri Alexa, 35mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 03 — Cuisson au feu
+
+```text
+Close-up of [DISH] cooking over open flame or hot pan, golden sear forming on the surface, small sparks and steam rising, chef hand partially visible controlling the movement, dark professional kitchen background, dramatic warm light from the fire, cinematic still, shot on Arri Alexa, 35mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 04 — Dressage précis du plat
+
+```text
+Chef plating [DISH] on elegant [PLATE COLOR] ceramic plate, tweezers placing final garnish, sauce already drawn in a clean line, steam gently rising, warm overhead light, refined gastronomic precision, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 05 — Plat signature final
+
+```text
+Final plated [SIGNATURE DISH] centered on elegant ceramic plate, rich textures visible, delicate garnish, subtle steam rising, dark restaurant table, warm candlelight and soft bokeh in background, premium dining atmosphere, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 06 — Salle de restaurant le soir
+
+```text
+Elegant restaurant dining room at evening service, warm table lights, guests visible only as soft silhouettes, polished glasses, linen napkins, wood and stone textures, intimate refined atmosphere, no direct faces, cinematic still, shot on Arri Alexa, 35mm lens, shallow depth of field, color graded, 16:9 aspect ratio.
+```
+
+### 07 — Verre servi à table
+
+```text
+Close-up of wine being poured into a crystal glass at a restaurant table, bottle neck entering frame from the left, golden liquid catching warm light, blurred plated dish in background, intimate dinner atmosphere, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 08 — Chef concentré en cuisine
+
+```text
+Chef in professional kitchen, three-quarter profile, focused expression, hands working just below frame, warm light from cooking station, stainless steel background softened by depth of field, atmosphere of concentration and mastery, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 09 — Dessert texture reveal
+
+```text
+Close-up of spoon breaking into [DESSERT: chocolate fondant / crème brûlée / fruit tart / mille-feuille], interior texture revealed, sauce or cream slowly spreading, warm soft light, elegant plate, sensory dessert moment, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+### 10 — Pack-shot restaurant avec logo
+
+```text
+Signature dish on elegant table setting, [RESTAURANT NAME] logo appearing subtly on menu card or lower part of frame, warm candlelight, refined dining atmosphere, plate perfectly centered, soft background bokeh, premium restaurant advertising style, cinematic still, shot on Arri Alexa, 50mm lens, shallow depth of field, color graded, 9:16 aspect ratio.
+```
+
+---
+
+## Banque de prompts vidéo
+
+5 mouvements vidéo typiques pour les vidéos de restaurants, chefs et plats gastronomiques.
+
+### Mouvement 01 — Reveal d'un ingrédient
+
+```text
+Duration: 3s
+Use first-frame.png as start frame, last-frame.png as end frame.
+
+Camera: very slow push in.
+Motion: tiny droplets and texture become more visible as the camera approaches the ingredient. No artificial movement.
+Lighting: soft directional light remains consistent.
+Style: cinematic, 24fps, film grain, color graded.
+```
+
+### Mouvement 02 — Geste du chef
+
+```text
+Duration: 4s
+Use first-frame.png as start frame, last-frame.png as end frame.
+
+Camera: static close-up.
+Motion: chef hands perform one precise culinary gesture, such as slicing, seasoning, stirring or placing garnish. The movement is controlled, elegant and realistic.
+Lighting: warm kitchen light, consistent throughout.
+Style: cinematic, 24fps, film grain, color graded.
+```
+
+### Mouvement 03 — Cuisson et vapeur
+
+```text
+Duration: 4s
+Use first-frame.png as start frame, last-frame.png as end frame.
+
+Camera: slight handheld micro-movement, professional documentary feel.
+Motion: steam rises naturally from the pan or plate, surface of the food glistens, flame or heat creates subtle movement in the background.
+Lighting: warm fire light with soft highlights.
+Style: cinematic, 24fps, film grain, color graded.
+```
+
+### Mouvement 04 — Dressage final
+
+```text
+Duration: 5s
+Use first-frame.png as start frame, last-frame.png as end frame.
+
+Camera: slow overhead-to-45-degree tilt.
+Motion: chef hand places the final garnish or sauce element on the plate, then exits the frame, leaving the final dish perfectly composed.
+Lighting: warm overhead restaurant light, consistent.
+Style: cinematic, 24fps, film grain, color graded.
+```
+
+### Mouvement 05 — Service à table
+
+```text
+Duration: 5s
+Use first-frame.png as start frame, last-frame.png as end frame.
+
+Camera: slow tracking shot from the side of the table.
+Motion: server places the dish gently in front of the guest, glassware catches warm highlights, background guests remain soft silhouettes.
+Lighting: warm candlelight and soft restaurant ambience.
+Style: cinematic, 24fps, film grain, color graded.
+```
+
+---
+
+## Palettes visuelles recommandées
+
+### Gastronomie du soir
+
+`#0f0c0a` noir chaud · `#8a5a2b` bois sombre · `#c89b63` lumière dorée · `#4a1f1f` bordeaux profond · `#f2e6d0` crème
+
+### Cuisine ouverte et feu
+
+`#1a1a1a` charbon · `#c46a2b` feu cuivré · `#d9a441` graisse dorée · `#6f6f6f` inox mat · `#f5f0e8` vapeur claire
+
+### Menu de saison
+
+`#e9e1d1` lin naturel · `#7b8b5a` vert sauge · `#9c6b3e` terre cuite · `#d1b88f` blé · `#3f3428` bois brut
+
+### Dessert premium
+
+`#2b1712` chocolat noir · `#c48a45` caramel · `#f4ead8` crème · `#8b1e2d` fruit rouge · `#d6b56d` or doux
+
+---
+
+## Pièges courants dans cette niche
+
+* Utiliser un éclairage blanc trop fort : il rend la nourriture froide et peu désirable.
+* Montrer trop de plans larges : la gastronomie se vend d'abord par les textures.
+* Faire sourire le chef face caméra : cela casse la tension artisanale et premium.
+* Trop montrer les clients : l'expérience doit rester désirable, pas documentaire amateur.
+* Utiliser des assiettes trop remplies : le premium respire, il ne surcharge pas.
+* Ajouter trop de vapeur artificielle : la vapeur doit rester subtile et crédible.
+* Montrer une cuisine sale ou désordonnée : même l'authenticité doit être maîtrisée.
+* Utiliser une musique trop festive : préférer une tension élégante, chaude, sensorielle.
+
+---
+
+## Plateformes et durées recommandées
+
+* **TikTok / Reels** : 15-25s en 9:16 — idéal pour plat signature, dessert, geste du chef
+* **YouTube Shorts** : 20-30s en 9:16 — bon format pour raconter un mini-processus culinaire
+* **Stories Instagram** : 15s max en 9:16 — parfait pour annoncer un plat du jour ou un menu
+* **YouTube classique** : 45-90s en 16:9 — utile pour une vidéo chef, menu dégustation ou expérience complète
+* **LinkedIn** : 20-30s en 1:1 ou 16:9 — pertinent pour ouverture, repositionnement ou annonce presse
+
+Pour un restaurant, le meilleur format de départ est souvent un Reel 9:16 de 20 secondes : assez court pour retenir l'attention, assez long pour construire le désir.
+
+---
+
+## Comment utiliser ce fichier
+
+Ce fichier est automatiquement lu par Claude quand tu charges ce repository dans ton Project.
+
+Tu n'as rien à faire manuellement. Écris simplement ta demande en mentionnant ton restaurant, ton plat ou ton objectif :
+
+```text
+Je veux créer une vidéo de 20 secondes pour présenter le plat 
+signature de mon restaurant [NOM]. L'ambiance doit être 
+[AMBIANCE] et le plat principal est [PLAT].
+```
+
+Claude détecte la niche restaurant-gastronomie, pioche dans les briefs et prompts ci-dessus, puis les adapte à ton projet précis.
