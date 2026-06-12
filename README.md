@@ -74,7 +74,7 @@ Pour utiliser cette méthode, il te faut :
 - **Un compte Higgsfield** ([higgsfield.ai](https://higgsfield.ai)) — pour la génération d'images et de vidéos
 - **Un logiciel de montage** — CapCut (gratuit), DaVinci Resolve (gratuit), Premiere ou Final Cut
 
-Aucune compétence technique au-delà : pas de code, pas de terminal, pas de GitHub à maîtriser. Tu copies des liens, tu écris du texte.
+Aucune compétence technique au-delà : pas de code, pas de terminal, pas de GitHub à maîtriser. Tu copies un lien, tu écris du texte.
 
 ---
 
@@ -86,36 +86,40 @@ Va sur [claude.ai](https://claude.ai), ouvre la section **Projects** dans le men
 
 Donne-lui un nom (par exemple « Mon projet vidéo »), puis **Create Project**.
 
-### Étape 2 — Charge les deux repositories
+### Étape 2 — Charge ce repository
 
-Dans la section **Project Knowledge**, ajoute deux URLs GitHub :
-
-**URL n°1 — La méthode universelle (obligatoire) :**
+Dans la section **Project Knowledge**, ajoute cette URL :
 
 ```
-https://github.com/[ton-username]/realisateur-artificiel-methode
+https://github.com/videokiosknet-hash/realisateur-artificiel-methode
 ```
 
-**URL n°2 — Le fichier de ta niche (choisis UN seul selon ton activité) :**
-
-| Ton activité | Repository à ajouter |
-|--------------|---------------------|
-| Parfum, beauté, cosmétique | `realisateur-niche-parfum` |
-| Restaurant, gastronomie | `realisateur-niche-restaurant` |
-| Immobilier de prestige | `realisateur-niche-immobilier` |
-| Mode, lookbook, défilé | `realisateur-niche-mode` |
-| SaaS, tech, démo logiciel | `realisateur-niche-saas` |
-| Formation, coaching | `realisateur-niche-formation` |
-| Fitness, wellness | `realisateur-niche-fitness` |
-| Marque personnelle | `realisateur-niche-marque-perso` |
-| Automobile | `realisateur-niche-auto` |
-| Voyage, hôtellerie, lifestyle | `realisateur-niche-voyage` |
-
-Cette double-architecture est volontaire : un repo contient la méthodologie universelle, l'autre contient des prompts prêts à l'emploi pour ton secteur. Claude ne charge pas les 9 autres niches dont tu n'as pas besoin. Le contexte reste propre et focalisé.
+Claude charge automatiquement tous les fichiers du repository : la méthode universelle, les instructions, l'exemple complet, et les 10 fichiers de niches avec prompts prêts à l'emploi.
 
 ### Étape 3 — Lance ta première demande
 
-Une fois les deux repositories chargés, copie le prompt de la section ci-dessous et envoie-le à Claude.
+Copie le prompt de la section ci-dessous et envoie-le à Claude. C'est tout.
+
+### 10 niches avec prompts prêts à l'emploi
+
+Ce repository contient des fichiers de prompts spécialisés pour 10 secteurs d'activité dans le dossier `niches/`. Tu n'as rien à faire pour les activer : **Claude détecte automatiquement ta niche** à partir de ta demande et utilise les bons prompts.
+
+| Niche | Fichier |
+|-------|---------|
+| Parfum, beauté, cosmétique | `niches/parfum-beaute.md` |
+| Restaurant, gastronomie | `niches/restaurant-gastronomie.md` |
+| Immobilier de prestige | `niches/immobilier.md` |
+| Mode, lookbook, défilé | `niches/mode-cosmetique.md` |
+| SaaS, tech, démo logiciel | `niches/saas-tech.md` |
+| Formation, coaching | `niches/formation-coaching.md` |
+| Fitness, wellness | `niches/fitness-wellness.md` |
+| Marque personnelle | `niches/marque-personnelle.md` |
+| Automobile | `niches/automobile.md` |
+| Voyage, hôtellerie, lifestyle | `niches/voyage-lifestyle.md` |
+
+Par exemple, si tu écris *« Je veux créer une vidéo pour mon restaurant gastronomique »*, Claude identifie la niche restaurant et pioche dans les prompts, palettes et briefs prêts à l'emploi de ce fichier.
+
+Si ton activité ne correspond à aucune niche, Claude utilise la méthode universelle sans fichier de niche. Ça marche très bien aussi.
 
 ---
 
@@ -157,7 +161,7 @@ Cette règle protège le projet et économise tes crédits Higgsfield : tu ne g�
 
 ## Le prompt à copier dans Claude
 
-Une fois les deux repositories chargés dans ton Project, colle ce texte en premier message :
+Une fois le repository chargé dans ton Project, colle ce texte en premier message :
 
 ```
 Je crée une vidéo IA selon la méthode du Réalisateur Artificiel.
@@ -175,8 +179,8 @@ Règles de travail :
 3. Les prompts pour les images et les vidéos sont toujours en 
    anglais, dans des blocs de code.
 4. Le reste de la conversation reste en français, tutoiement.
-5. Tu utilises les modèles et exemples de mon fichier de niche 
-   en priorité quand il est disponible.
+5. Tu détectes ma niche à partir de ma demande et tu utilises 
+   les prompts du fichier de niche correspondant en priorité.
 6. Tu appliques la règle first-frame / last-frame pour assurer 
    la continuité visuelle entre plans.
 7. Tu termines chaque prompt image par cette signature stylistique :
@@ -361,9 +365,9 @@ C'est le meilleur point de départ pour comprendre la méthode dans son ensemble
 
 | Besoin | Modèle | Pourquoi |
 |--------|--------|----------|
-| Image cinéma haute qualité | Nano Banana Pro| Meilleur rendu cinématographique du marché |
+| Image cinéma haute qualité | Nano Banana Pro | Meilleur rendu cinématographique du marché |
 | Image avec personnage cohérent | Higgsfield Soul | Conserve le même visage sur toutes les images |
-| Image générique / brouillon | Nano Banana / Nano Banana 2 | Plus rapide, moins cher |
+| Image générique / brouillon | Nano Banana | Plus rapide, moins cher |
 | Vidéo qualité agence | Seedance 2.0 | Niveau cinéma, mais cher en crédits |
 | Vidéo rapport qualité/prix | Kling 3.0 | Polyvalent, abordable, bon partout |
 | Vidéo avec dialogue parlé | Veo 3 | Lip-sync naturel et audio natif |
@@ -386,13 +390,25 @@ Tous ces modèles sont accessibles via Higgsfield avec un seul abonnement.
 
 ## Structure du repository
 
-| Fichier | Rôle |
-|---------|------|
-| `README.md` | Ce document — la méthode universelle |
-| `CLAUDE-INSTRUCTIONS.md` | Les règles précises que Claude doit suivre |
-| `EXEMPLE-COMPLET.md` | Un projet complet du brief à la vidéo finale |
+```
+realisateur-artificiel-methode/
+├── README.md                         ← Ce document (la méthode universelle)
+├── CLAUDE.md                         ← Les règles que Claude doit suivre
+├── EXEMPLE-COMPLET.md                ← Un projet complet du brief à la vidéo
+└── niches/
+    ├── parfum-beaute.md              ← Prompts pour parfum et cosmétique
+    ├── restaurant-gastronomie.md     ← Prompts pour restauration
+    ├── immobilier.md                 ← Prompts pour immobilier de prestige
+    ├── mode-cosmetique.md            ← Prompts pour mode et lookbook
+    ├── saas-tech.md                  ← Prompts pour SaaS et démo logiciel
+    ├── formation-coaching.md         ← Prompts pour formation en ligne
+    ├── fitness-wellness.md           ← Prompts pour fitness et wellness
+    ├── marque-personnelle.md         ← Prompts pour personal branding
+    ├── automobile.md                 ← Prompts pour automobile
+    └── voyage-lifestyle.md           ← Prompts pour voyage et hôtellerie
+```
 
-Tous ces fichiers sont automatiquement lus par Claude quand tu colles l'URL du repository dans Project Knowledge.
+Tous ces fichiers sont automatiquement lus par Claude quand tu colles l'URL du repository dans Project Knowledge. Claude détecte ta niche et utilise les bons prompts sans que tu aies à choisir le fichier manuellement.
 
 ---
 
