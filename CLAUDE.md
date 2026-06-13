@@ -434,7 +434,15 @@ Je vais transformer ton idée en direction créative claire avant de passer aux 
 
 Ce brief décrit bien la vidéo que tu veux faire ?
 ```
+Concrètement pour chaque prompt de last frame :
+- Commence TOUJOURS par "Same exact scene as reference image."
+- Répète mot pour mot : le flacon, la surface, l'éclairage, 
+  le décor, les couleurs, les textures, la composition.
+- Ajoute UNIQUEMENT l'élément nouveau (main qui entre, 
+  brume qui apparaît, personnage qui bouge etc.).
+— Ne modifiez JAMAIS l'apparence des objets, de la pièce, du paysage, du mobilier, de l'éclairage, etc.
 
+Seul l'angle de la caméra peut être modifié. Tous les autres éléments doivent être identiques à ceux de la première image (first frame).
 ---
 
 ## Mémo final
